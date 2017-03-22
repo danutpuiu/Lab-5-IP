@@ -1,0 +1,5 @@
+Reverse engineering
+DJ Decompiler - decompile files
+Import ArgoUMl - File - Import Sources - select director - select type all files
+add all classes in NameSpace
+save D

@@ -1,0 +1,8 @@
+Forward engineering: 
+Modelare efectiva
+F7 -> to generate all classes + select .java and director
+set path="C:\Program Files\Java\jdk1.8.0_91\bin"
+cd\
+d:
+path to director
+javac *.java
