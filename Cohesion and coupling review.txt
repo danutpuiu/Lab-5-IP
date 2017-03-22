@@ -1,0 +1,11 @@
+Low cohesion:
+	LevelManager
+		- se poate rezolva prin adaugarea de metode care sa ii ofere o putere
+		mai mare.
+High coupling:
+	Level 
+		- se poate rezolva prin folosirea unei clase abstracte 
+		"Character" din care sa fie mostenite "Bird" si "Enemy", astfel
+		reducandu-se cuplajul.
+		
+In rest, diagrama nu sufera de low cohesion sau high coupling.
