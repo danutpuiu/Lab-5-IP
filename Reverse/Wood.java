@@ -11,11 +11,6 @@ public class Wood extends Prop
     {
     }
 
-    public void Wood()
-    {
-    }
-
-
     public String toString() {
         return new String("Wood instance");
     }

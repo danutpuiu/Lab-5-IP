@@ -11,10 +11,6 @@ public class Glass extends Prop
     {
     }
 
-    public void Glass()
-    {
-    }
-
 
     public String toString() {
         return new String("Glass instance");

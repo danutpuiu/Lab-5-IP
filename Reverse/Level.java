@@ -8,9 +8,9 @@ import java.util.Vector;
 public class Level
 {
 
-    public Vector enemies;
-    public Vector birds;
-    public Vector props;
+    public Vector<Enemy> enemies;
+    public Vector<Bird> birds;
+    public Vector<Prop> props;
 
     public Level()
     {

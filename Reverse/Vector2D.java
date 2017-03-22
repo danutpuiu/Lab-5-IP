@@ -14,7 +14,7 @@ public class Vector2D
     {
     }
 
-    public void Vector2D(float f, float f1)
+    public Vector2D(float f, float f1)
     {
     }
 

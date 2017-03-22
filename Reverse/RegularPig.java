@@ -11,10 +11,6 @@ public class RegularPig extends Enemy
     {
     }
 
-    public void RegularPig()
-    {
-    }
-
 
     public String toString() {
         return new String("RegularPig instance");

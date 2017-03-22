@@ -8,7 +8,7 @@ import java.util.Vector;
 public class LevelManager
 {
 
-    public Vector levels;
+    public Vector<Level> levels;
 
     public LevelManager()
     {

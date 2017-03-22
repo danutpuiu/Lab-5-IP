@@ -11,10 +11,6 @@ public class BigPig extends Enemy
     {
     }
 
-    public void BigPig()
-    {
-    }
-
     public String toString() {
         return new String("BigPig instance");
     }

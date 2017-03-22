@@ -11,11 +11,6 @@ public class Stone extends Prop
     {
     }
 
-    public void Stone()
-    {
-    }
-
-
     public String toString() {
         return new String("Stone instance");
     }

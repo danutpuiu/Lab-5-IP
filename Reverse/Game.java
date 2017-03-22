@@ -7,10 +7,27 @@
 public class Game
 {
 
+    private static Boolean instantiated = false;
+    private static Game instance;
     public LevelManager levelManager;
+    private String name;
 
-    public Game()
-    {
+    private Game(String name) {
+        this.name = name;
+    }
+
+    public static Game newGame(String name) {
+        if (instantiated == false) {
+            instance = new Game(name);
+            instantiated = true;
+        } else {
+            System.out.println("WARNING: Instantiating singleton more than once. Using the initial instance.");
+        }
+        return instance;
+    }
+
+    public String toString() {
+        return name;
     }
 
     public void init()
@@ -21,7 +38,4 @@ public class Game
     {
     }
 
-    public String toString() {
-        return new String("Game instance");
-    }
 }
