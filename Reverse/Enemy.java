@@ -7,6 +7,8 @@
 public class Enemy
 {
 
+    public Vector2D position;
+
     public Enemy()
     {
     }
@@ -15,5 +17,7 @@ public class Enemy
     {
     }
 
-    public Vector2D position;
+    public String toString() {
+        return new String("Enemy instance");
+    }
 }

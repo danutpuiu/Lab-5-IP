@@ -7,6 +7,9 @@
 public class Vector2D
 {
 
+    private float x;
+    private float y;
+
     public Vector2D()
     {
     }
@@ -15,16 +18,12 @@ public class Vector2D
     {
     }
 
-    public void setX(float f)
-    {
-    }
-
     public float getX()
     {
         return x;
     }
 
-    public void setY(float f)
+    public void setX(float f)
     {
     }
 
@@ -33,6 +32,10 @@ public class Vector2D
         return y;
     }
 
-    private float x;
-    private float y;
+    public void setY(float f) {
+    }
+
+    public String toString() {
+        return new String("Vector2D instance");
+    }
 }

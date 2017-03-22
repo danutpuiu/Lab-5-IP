@@ -7,6 +7,8 @@
 public class Prop
 {
 
+    public Vector2D position;
+
     public Prop()
     {
     }
@@ -15,5 +17,7 @@ public class Prop
     {
     }
 
-    public Vector2D position;
+    public String toString() {
+        return new String("Prop instance");
+    }
 }

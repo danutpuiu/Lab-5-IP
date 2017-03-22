@@ -14,4 +14,9 @@ public class RedBird extends Bird
     public void RedBird()
     {
     }
+
+
+    public String toString() {
+        return new String("RedBird instance");
+    }
 }

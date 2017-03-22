@@ -8,6 +8,8 @@ import java.util.Vector;
 public class LevelManager
 {
 
+    public Vector levels;
+
     public LevelManager()
     {
     }
@@ -16,5 +18,7 @@ public class LevelManager
     {
     }
 
-    public Vector levels;
+    public String toString() {
+        return new String("LevelManager instance");
+    }
 }

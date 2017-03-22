@@ -7,6 +7,8 @@
 public class Bird
 {
 
+    private Vector2D position;
+
     public Bird()
     {
     }
@@ -15,5 +17,7 @@ public class Bird
     {
     }
 
-    private Vector2D position;
+    public String toString() {
+        return new String("Bird instance");
+    }
 }

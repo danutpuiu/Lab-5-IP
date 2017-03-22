@@ -8,6 +8,10 @@ import java.util.Vector;
 public class Level
 {
 
+    public Vector enemies;
+    public Vector birds;
+    public Vector props;
+
     public Level()
     {
     }
@@ -24,7 +28,7 @@ public class Level
     {
     }
 
-    public Vector enemies;
-    public Vector birds;
-    public Vector props;
+    public String toString() {
+        return new String("Level instance");
+    }
 }

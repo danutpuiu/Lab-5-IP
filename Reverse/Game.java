@@ -7,6 +7,8 @@
 public class Game
 {
 
+    public LevelManager levelManager;
+
     public Game()
     {
     }
@@ -19,5 +21,7 @@ public class Game
     {
     }
 
-    public LevelManager levelManager;
+    public String toString() {
+        return new String("Game instance");
+    }
 }

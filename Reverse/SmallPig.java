@@ -14,4 +14,9 @@ public class SmallPig extends Enemy
     public void SmallPig()
     {
     }
+
+
+    public String toString() {
+        return new String("SmallPig instance");
+    }
 }
