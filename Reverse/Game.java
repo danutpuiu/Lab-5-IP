@@ -1,19 +1,23 @@
-public class Game {
+// Decompiled by DJ v3.10.10.93 Copyright 2007 Atanas Neshkov  Date: 22.03.2017 15:08:43
+// Home Page: http://members.fortunecity.com/neshkov/dj.html  http://www.neshkov.com/dj.html - Check often for new version!
+// Decompiler options: packimports(3) 
+// Source File Name:   Game.java
 
-  public LevelManager levelManager;
 
-    public Vector  myApp;
-  
-  public Game() {
+public class Game
+{
 
-  }
+    public Game()
+    {
+    }
 
-  public void init() {
+    public void init()
+    {
+    }
 
-  }
+    public void run()
+    {
+    }
 
-  public void run() {
-
-  }
-
+    public LevelManager levelManager;
 }

@@ -1,31 +1,38 @@
-public class Vector2D {
+// Decompiled by DJ v3.10.10.93 Copyright 2007 Atanas Neshkov  Date: 22.03.2017 15:10:18
+// Home Page: http://members.fortunecity.com/neshkov/dj.html  http://www.neshkov.com/dj.html - Check often for new version!
+// Decompiler options: packimports(3) 
+// Source File Name:   Vector2D.java
 
-  private float x;
 
-  private float y;
+public class Vector2D
+{
 
-  public Vector2D() {
+    public Vector2D()
+    {
+    }
 
-  }
+    public void Vector2D(float f, float f1)
+    {
+    }
 
-  public Vector2D(float f, float f1) {
+    public void setX(float f)
+    {
+    }
 
-  }
-
-  public void setX(float f) {
-
-  }
-
-  public float getX() {
+    public float getX()
+    {
         return x;
-  }
+    }
 
-  public void setY(float f) {
+    public void setY(float f)
+    {
+    }
 
-  }
-
-  public float getY() {
+    public float getY()
+    {
         return y;
-  }
+    }
 
+    private float x;
+    private float y;
 }
